@@ -1,6 +1,8 @@
 import express from 'express'
 import cors from 'cors'
-
+import { errorHandler } from './middlewares/errorHandler'
+import logger from './config/logger'
+import mainRouter from './routes/index.routes'
 
 
 const app = express()
@@ -17,7 +19,7 @@ app.use((req, res, next) => {
 
 
 
-app.use('/api/scrape', scrapeRouter)
+app.use('/api/v1', mainRouter)
 
 app.use(errorHandler)
 
