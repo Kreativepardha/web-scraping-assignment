@@ -4,7 +4,7 @@ A production-ready web scraping tool built with **Bun**, **Express**, **Prisma**
 Includes rate limiting, proxy support, Redis caching, CLI runner, and modular extraction layers (basic, medium, advanced).
 
 ## TLDR
-I used some of the Redteam/cyber tools to get scraping done, another proper addtional feature could be Spiders which will help us further etc.
+I used some of the Redteam/cyber tools to get techdetails,basic info scraping done, another proper addtional feature could be Spiders which will help us further etc.
 ---
 
 ## ✨ Features
