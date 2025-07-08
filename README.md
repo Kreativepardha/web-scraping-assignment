@@ -3,6 +3,8 @@
 A production-ready web scraping tool built with **Bun**, **Express**, **Prisma**, and **CLI-based enrichment** (`httpx`, `subfinder`, `findomain`, `whois`, etc.) to extract company data from search queries or seed URLs.  
 Includes rate limiting, proxy support, Redis caching, CLI runner, and modular extraction layers (basic, medium, advanced).
 
+## TLDR
+I used some of the Redteam/cyber tools to get scraping done, another proper addtional feature could be Spiders which will help us further etc.
 ---
 
 ## ✨ Features
